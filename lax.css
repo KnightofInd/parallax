@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+    
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Akira Expnaded', sans-serif;
+
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akira Expanded', sans-serif;
+    }
+
+    body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+    }
+    header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+    .logo {
+        font-size: 2em;
+        color: red;
+        pointer-events: none;
+        }
+
+        .navigation a{
+        text-decoration: none;
+        color: red;
+        padding: 6px 15px;
+        border-radius: 20px;
+        margin: 0 10px;
+        font-weight: 600;
+        }
+
+.navigation a:hover{
+    background: red;
+    color:black;
+}
