@@ -7,3 +7,10 @@ window.addEventListener('scroll', () => {
     text.style.marginTop = value * -2.5 + 'px';
     foreground.style.marginTop = value * 1.5 + 'px';
     });
+
+    function toggleMenu() {
+        const navigation = document.querySelector('.navigation');
+        const burger = document.querySelector('.burger');
+        navigation.classList.toggle('active');
+        burger.classList.toggle('active');
+    }
